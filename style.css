@@ -1,0 +1,86 @@
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.desctop{
+	width: 100%;
+	height: 100vh;
+	background: #1A5B35;
+	position: relative;
+	/*display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;*/
+}
+
+.lefttop{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.leftbottom{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.righttop{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.leftbottommuzik{
+	position: absolute;
+	bottom: 75px;
+	left: 14px;
+}
+.logomega{
+	position: absolute;
+	left: 650px;
+	bottom: 120px;
+}
+
+.kowork{
+	position: relative;
+	top: 150px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+
+}
+h1{
+	font-family: "Dancing Script";
+	color: #D6BD84;
+	font-weight: 400;
+	font-size: 72px;
+	line-height: 115px;
+	padding: 0;
+	margin: 0;
+}
+
+p{
+	width: 670px;
+	height: 349px;
+	font-size: 18px;
+	line-height: 22px;
+	/*text-align: center;*/
+	color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+
+}
+.vozlemega{
+	position: absolute;
+	right: 520px;
+	bottom: 50px;
+}
+@media all and (min-width: 544px){
+	.desctop{
+		background-color: red;
+	}
+}
+
+
