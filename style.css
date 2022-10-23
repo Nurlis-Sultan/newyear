@@ -6,13 +6,9 @@ body{
 
 .desctop{
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 	background: #1A5B35;
 	position: relative;
-	/*display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;*/
 }
 
 .lefttop{
@@ -36,19 +32,17 @@ body{
 	bottom: 75px;
 	left: 14px;
 }
-.logomega{
-	position: absolute;
-	left: 650px;
-	bottom: 120px;
-}
 
 .kowork{
-	position: relative;
-	top: 150px;
+	max-width: 662px;
+	margin: 0 auto;
+	padding-top: 150px;
 	display: flex;
+	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 	text-align: center;
+	z-index: 1;
 
 }
 h1{
@@ -61,25 +55,63 @@ h1{
 	margin: 0;
 }
 
-p{
-	width: 670px;
-	height: 349px;
+.kollektiv{
+	/*width: 600px;*/
+	/*height: 200px;*/
 	font-size: 18px;
 	line-height: 22px;
-	/*text-align: center;*/
+	color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+}
+.uvaj{
+	max-width: 200px;
+	font-size: 18px;
+	line-height: 22px;
 	color: #FFFFFF;
 	padding: 0;
 	margin: 0;
 
 }
-.vozlemega{
-	position: absolute;
-	right: 520px;
-	bottom: 50px;
+.megaflow{
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+	margin-left: 150px;
+
 }
-@media all and (min-width: 544px){
-	.desctop{
-		background-color: red;
+.vkl a{
+	position: absolute;
+	width: 58px;
+	height: 22px;
+	right: 25px;
+	top: 20px;
+	font-family: 'Gilroy';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 11px;
+	color: white;
+	text-decoration: none;
+	display: none;
+}
+@media(max-width: 834px){
+	.kowork{
+	max-width: 500px;
+	}
+
+}
+@media(max-width: 425px){
+	.vkl a{
+		display: block;
+	}
+	.leftbottommuzik{
+		/*position: absolute;*/
+		left:80%;
+		top: 60px;
+	}
+	.leftbottom,.righttop{
+		display: none;
 	}
 }
 
